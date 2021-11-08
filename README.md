@@ -7,6 +7,6 @@
 
 
 
-<img src="https://github.com/vitiksys/captcha_ocr/blob/0d27001c706b1db15391fbfaa022d543f6103817/cover.png"/>
+<img src="https://i0.hdslb.com/bfs/archive/377139dfb8b02ef346cefc6c54b0a0021d9ef8a1.png"/>
 
 
