@@ -18,10 +18,9 @@ def test_pred():
     for i, (imgs, lables) in enumerate(test_dataloader):
         imgs = imgs.cuda()
         lables = lables.cuda()
-        print(lables.shape)
+
         lables = lables.view(-1, common.captcha_array.__len__())
-        print(lables.shape)
-        break
+
         lables_text = one_hot.vectotext(lables)
         predict_outputs = m(imgs)
         predict_outputs = predict_outputs.view(-1, common.captcha_array.__len__())
